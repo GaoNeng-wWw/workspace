@@ -7,6 +7,8 @@
   "bin": {
     "workspace": "./dist/index.js"
   },
+  "license": "MIT",
+  "description": "pnpm workspace enhance",
   "dependencies": {
     "@pnpm/filter-workspace-packages": "^8.0.6",
     "@types/node": "^20.12.12",

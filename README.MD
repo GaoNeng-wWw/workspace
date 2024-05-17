@@ -1,6 +1,6 @@
 # workspace
 
-A modern monorepo management tool
+pnpm workspace enhance
 
 ```typescript
 pnpm i @gaonengwww/workspace -g 
