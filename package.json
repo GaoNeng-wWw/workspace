@@ -38,5 +38,6 @@
     "globals": "^15.2.0",
     "terser": "^5.31.0",
     "typescript-eslint": "^7.9.0"
-  }
+  },
+  "keywords": ["workspace", "pnpm", "enhance", "dx"]
 }
