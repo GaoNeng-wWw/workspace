@@ -1,12 +1,13 @@
 {
   "name": "@gaonengwww/workspace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "dist"
   ],
   "bin": {
-    "workspace": "./dist/index.js"
+    "workspace": "./dist/index.cjs"
   },
+  "type": "module",
   "license": "MIT",
   "description": "pnpm workspace enhance",
   "dependencies": {
@@ -24,9 +25,7 @@
   "scripts": {
     "dev": "esno ./src/index.ts",
     "lint": "eslint .",
-    "build": "tsup",
-    "build:dev": "tsup --config tsup.dev.config.ts",
-    "workspace": "node ./dist/index.cjs"
+    "build": "tsup"
   },
   "devDependencies": {
     "@eslint/js": "^9.2.0",

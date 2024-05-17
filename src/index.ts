@@ -1,8 +1,7 @@
 import {program} from 'commander';
-const main = async () => {
-  const list = await import('./commands/list');
-  list.default(program);
+import list from './commands/list';
+const main = () => {
+  list(program);
   program.parse(process.argv);
 };
-main()
-.then(()=>{});
+main();
