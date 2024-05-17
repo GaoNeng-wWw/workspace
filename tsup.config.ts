@@ -10,5 +10,10 @@ export default defineConfig({
       js: `#!/usr/bin/env node`
     };
   },
-  skipNodeModulesBundle: true
+  skipNodeModulesBundle: true,
+  noExternal: [/.*/],
+  minify: "terser",
+  minifyIdentifiers: true,
+  minifySyntax: true,
+  minifyWhitespace: true,
 });

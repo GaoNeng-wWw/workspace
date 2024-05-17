@@ -97,6 +97,6 @@ const listWorkspace = (
 };
 
 export default (program: Command) => {
-  program.command('list [path]')
+  program.command('list [path]', 'List all packages in the path')
     .action(listWorkspace);
 };
