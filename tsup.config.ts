@@ -9,6 +9,8 @@ export default defineConfig({
       js: `#!/usr/bin/env node`
     };
   },
-  noExternal: [/.*/],
-  minify: "terser",
+  // noExternal: [/.*/],
+  sourcemap: true,
+  format: 'esm',
+  // minify: "terser",
 });
