@@ -46,6 +46,7 @@
     "workspace",
     "pnpm",
     "enhance",
-    "dx"
+    "dx",
+    "cli"
   ]
 }
