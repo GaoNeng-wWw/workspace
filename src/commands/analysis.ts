@@ -121,6 +121,7 @@ export const analysisDependencies = async (
 };
 export default async (program: Command) => {
   program.command('analysis [path]')
+  .description('Generate dependency graph based on pnpm workspace.yaml file')
   .option('-excludes --excludes [...name]', 'Exclude which packages')
   .option('-includes --includes [...name]', 'Include which packages')
   .action(analysisDependencies);
